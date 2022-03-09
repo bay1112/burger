@@ -1,0 +1,50 @@
+.MenuItem {
+  margin: 0;
+  display: block;
+  width: 100%;
+  align-items: center;
+}
+
+.MenuItem a {
+  color: #8f5c2c;
+  text-align: none;
+  height: 100%;
+  display: block;
+  padding: 16px 10px;
+  text-decoration: none;
+  border-bottom: 4px solid transparent;
+}
+
+.MenuItem a:hover,
+.MenuItem a:active,
+.MenuItem a.active {
+  background-color: #8f5c2c;
+  border-bottom: 4px solid #40a4c8;
+}
+
+@media (min-width: 500px) {
+  .MenuItem {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    width: auto;
+    align-items: center;
+  }
+
+  .MenuItem a {
+    color: white;
+    text-align: none;
+    height: 100%;
+    padding: 16px 10px;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+  }
+
+  .MenuItem a:hover,
+  .MenuItem a:active,
+  .MenuItem a.active {
+    background-color: #8f5c2c;
+    border-bottom: 4px solid #40a4c8;
+  }
+}
